@@ -11,6 +11,7 @@
     "gulp-rename": "^1.2.0",
     "gulp-sass": "^1.0.0",
     "gulp-sourcemaps": "^1.2.2",
+    "gulp-webserver": "^0.8.2",
     "jquery": "^2.1.1",
     "lodash": "^2.4.1",
     "moment": "^2.8.3",

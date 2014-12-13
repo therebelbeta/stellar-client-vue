@@ -18960,6 +18960,38 @@ domready(function() {
       }]
     }
   })
+  _authGithub();
 });
 // End Logic
+
+function _authGithub(cb) {
+  // var authWindow = window.open(config.api + 'github/auth', null,
+  //   'menubar=no,status=no,toolbar=no');
+
+  //create popup window
+  var domain = 'http://localhost:3100';
+  var authGit = window.open(domain + '/api/auth/github', 'Authorize Github',
+    'menubar=no,status=no,toolbar=no');
+
+  var timer = setInterval(checkChild, 500);
+  var url = '';
+
+  function checkChild() {
+    if (authGit.closed) {
+      console.log("Child window closed", url);
+      clearInterval(timer);
+    }
+    else {
+      url = authGit.location.href;
+    }
+  }
+}
+
+function _logout(cb) {
+
+}
+
+function _getRepos(cb, search, searchType, filter, sort, tag) {
+
+}
 },{"domready":"/home/therebelrobot/git/personal/stellar-client/node_modules/domready/ready.js","lodash":"/home/therebelrobot/git/personal/stellar-client/node_modules/lodash/dist/lodash.js","moment":"/home/therebelrobot/git/personal/stellar-client/node_modules/moment/moment.js","store":"/home/therebelrobot/git/personal/stellar-client/node_modules/store/store.js","superagent":"/home/therebelrobot/git/personal/stellar-client/node_modules/superagent/lib/client.js","vue":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/vue.js"}]},{},["/home/therebelrobot/git/personal/stellar-client/source.js"]);

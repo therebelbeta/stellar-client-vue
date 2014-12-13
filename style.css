@@ -1,0 +1,15 @@
+.bootstrap-tagsinput{
+  float: none;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid #757575;
+  width:100%;
+}
+.float-right{
+  float:right;
+}
+.panel-body .label-info{
+  margin:3px;
+}

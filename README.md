@@ -1,4 +1,2 @@
-stellar-client
-==============
-
-A VueJS build of the client side of Stellar Github star organizer
+# stellar-client
+The client side of Stellar Github star organizer

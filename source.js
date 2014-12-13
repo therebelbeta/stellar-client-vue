@@ -97,7 +97,7 @@ function _authGithub(cb) {
 
   function checkChild() {
     if (authGit.closed) {
-      console.log("Child window closed", url);
+      console.log("Child window closed", window.gitAuth);
       clearInterval(timer);
     }
     else {

@@ -1,4 +1,4 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/home/therebelrobot/git/personal/stellar-client/node_modules/domready/ready.js":[function(require,module,exports){
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/home/therebelrobot/git/personal/stellar-api/public/node_modules/domready/ready.js":[function(require,module,exports){
 /*!
   * domready (c) Dustin Diaz 2014 - License MIT
   */
@@ -30,7 +30,7 @@
 
 });
 
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/lodash/dist/lodash.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/lodash/dist/lodash.js":[function(require,module,exports){
 (function (global){
 /**
  * @license
@@ -6819,7 +6819,7 @@
 }.call(this));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/moment/moment.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/moment/moment.js":[function(require,module,exports){
 (function (global){
 //! moment.js
 //! version : 2.8.4
@@ -9759,7 +9759,7 @@
 }).call(this);
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/store/store.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/store/store.js":[function(require,module,exports){
 ;(function(win){
 	var store = {},
 		doc = win.document,
@@ -9936,7 +9936,7 @@
 
 })(Function('return this')());
 
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/superagent/lib/client.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/superagent/lib/client.js":[function(require,module,exports){
 /**
  * Module dependencies.
  */
@@ -11019,7 +11019,7 @@ request.put = function(url, data, fn){
 
 module.exports = request;
 
-},{"emitter":"/home/therebelrobot/git/personal/stellar-client/node_modules/superagent/node_modules/component-emitter/index.js","reduce":"/home/therebelrobot/git/personal/stellar-client/node_modules/superagent/node_modules/reduce-component/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/superagent/node_modules/component-emitter/index.js":[function(require,module,exports){
+},{"emitter":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/superagent/node_modules/component-emitter/index.js","reduce":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/superagent/node_modules/reduce-component/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/superagent/node_modules/component-emitter/index.js":[function(require,module,exports){
 
 /**
  * Expose `Emitter`.
@@ -11185,7 +11185,7 @@ Emitter.prototype.hasListeners = function(event){
   return !! this.listeners(event).length;
 };
 
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/superagent/node_modules/reduce-component/index.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/superagent/node_modules/reduce-component/index.js":[function(require,module,exports){
 
 /**
  * Reduce `arr` with `fn`.
@@ -11210,7 +11210,7 @@ module.exports = function(arr, fn, initial){
   
   return curr;
 };
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/api/child.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/api/child.js":[function(require,module,exports){
 var _ = require('../util')
 
 /**
@@ -11264,7 +11264,7 @@ exports.$addChild = function (opts, BaseCtor) {
   this._children.push(child)
   return child
 }
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/api/data.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/api/data.js":[function(require,module,exports){
 var _ = require('../util')
 var Watcher = require('../watcher')
 var Path = require('../parsers/path')
@@ -11429,7 +11429,7 @@ exports.$log = function (path) {
   }
   console.log(data)
 }
-},{"../parsers/directive":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/directive.js","../parsers/expression":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/expression.js","../parsers/path":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/path.js","../parsers/text":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/text.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js","../watcher":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/watcher.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/api/dom.js":[function(require,module,exports){
+},{"../parsers/directive":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/directive.js","../parsers/expression":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/expression.js","../parsers/path":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/path.js","../parsers/text":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/text.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js","../watcher":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/watcher.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/api/dom.js":[function(require,module,exports){
 var _ = require('../util')
 var transition = require('../transition')
 
@@ -11641,7 +11641,7 @@ function remove (el, vm, cb) {
   _.remove(el)
   if (cb) cb()
 }
-},{"../transition":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/transition/index.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/api/events.js":[function(require,module,exports){
+},{"../transition":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/transition/index.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/api/events.js":[function(require,module,exports){
 var _ = require('../util')
 
 /**
@@ -11818,7 +11818,7 @@ function modifyListenerCount (vm, event, count) {
     parent = parent.$parent
   }
 }
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/api/global.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/api/global.js":[function(require,module,exports){
 var _ = require('../util')
 var mergeOptions = require('../util/merge-option')
 
@@ -11965,7 +11965,7 @@ function createAssetRegisters (Constructor) {
 }
 
 createAssetRegisters(exports)
-},{"../compiler/compile":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/compiler/compile.js","../compiler/transclude":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/compiler/transclude.js","../config":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/config.js","../parsers/directive":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/directive.js","../parsers/expression":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/expression.js","../parsers/path":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/path.js","../parsers/template":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/template.js","../parsers/text":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/text.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js","../util/merge-option":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/merge-option.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/api/lifecycle.js":[function(require,module,exports){
+},{"../compiler/compile":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/compiler/compile.js","../compiler/transclude":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/compiler/transclude.js","../config":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/config.js","../parsers/directive":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/directive.js","../parsers/expression":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/expression.js","../parsers/path":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/path.js","../parsers/template":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/template.js","../parsers/text":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/text.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js","../util/merge-option":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/merge-option.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/api/lifecycle.js":[function(require,module,exports){
 var _ = require('../util')
 var compile = require('../compiler/compile')
 
@@ -12038,7 +12038,7 @@ exports.$destroy = function (remove, deferCleanup) {
 exports.$compile = function (el) {
   return compile(el, this.$options, true)(this, el)
 }
-},{"../compiler/compile":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/compiler/compile.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/batcher.js":[function(require,module,exports){
+},{"../compiler/compile":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/compiler/compile.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/batcher.js":[function(require,module,exports){
 var _ = require('./util')
 
 // we have two separate queues: one for directive updates
@@ -12119,7 +12119,7 @@ exports.push = function (job) {
     }
   }
 }
-},{"./util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/cache.js":[function(require,module,exports){
+},{"./util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/cache.js":[function(require,module,exports){
 /**
  * A doubly linked list-based Least Recently Used (LRU)
  * cache. Will keep most recently used items while
@@ -12232,7 +12232,7 @@ p.get = function (key, returnEntry) {
 }
 
 module.exports = Cache
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/compiler/compile.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/compiler/compile.js":[function(require,module,exports){
 var _ = require('../util')
 var config = require('../config')
 var textParser = require('../parsers/text')
@@ -12786,7 +12786,7 @@ function directiveComparator (a, b) {
   b = b.def.priority || 0
   return a > b ? 1 : -1
 }
-},{"../config":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/config.js","../parsers/directive":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/directive.js","../parsers/template":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/template.js","../parsers/text":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/text.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/compiler/transclude.js":[function(require,module,exports){
+},{"../config":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/config.js","../parsers/directive":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/directive.js","../parsers/template":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/template.js","../parsers/text":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/text.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/compiler/transclude.js":[function(require,module,exports){
 var _ = require('../util')
 var templateParser = require('../parsers/template')
 
@@ -12933,7 +12933,7 @@ function insertContentAt (outlet, contents) {
   }
   parent.removeChild(outlet)
 }
-},{"../parsers/template":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/template.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/config.js":[function(require,module,exports){
+},{"../parsers/template":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/template.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/config.js":[function(require,module,exports){
 module.exports = {
 
   /**
@@ -13013,7 +13013,7 @@ Object.defineProperty(module.exports, 'delimiters', {
     this._delimitersChanged = true
   }
 })
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directive.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directive.js":[function(require,module,exports){
 var _ = require('./util')
 var config = require('./config')
 var Watcher = require('./watcher')
@@ -13235,7 +13235,7 @@ p.set = function (value, lock) {
 }
 
 module.exports = Directive
-},{"./config":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/config.js","./parsers/expression":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/expression.js","./parsers/text":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/text.js","./util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js","./watcher":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/watcher.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/attr.js":[function(require,module,exports){
+},{"./config":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/config.js","./parsers/expression":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/expression.js","./parsers/text":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/text.js","./util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js","./watcher":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/watcher.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/attr.js":[function(require,module,exports){
 // xlink
 var xlinkNS = 'http://www.w3.org/1999/xlink'
 var xlinkRE = /^xlink:/
@@ -13268,7 +13268,7 @@ function xlinkHandler (value) {
     this.el.removeAttributeNS(xlinkNS, 'href')
   }
 }
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/class.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/class.js":[function(require,module,exports){
 var _ = require('../util')
 var addClass = _.addClass
 var removeClass = _.removeClass
@@ -13287,7 +13287,7 @@ module.exports = function (value) {
     }
   }
 }
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/cloak.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/cloak.js":[function(require,module,exports){
 var config = require('../config')
 
 module.exports = {
@@ -13300,7 +13300,7 @@ module.exports = {
   }
 
 }
-},{"../config":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/config.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/component.js":[function(require,module,exports){
+},{"../config":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/config.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/component.js":[function(require,module,exports){
 var _ = require('../util')
 var templateParser = require('../parsers/template')
 
@@ -13497,7 +13497,7 @@ module.exports = {
   }
 
 }
-},{"../parsers/template":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/template.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/el.js":[function(require,module,exports){
+},{"../parsers/template":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/template.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/el.js":[function(require,module,exports){
 module.exports = {
 
   isLiteral: true,
@@ -13511,7 +13511,7 @@ module.exports = {
   }
   
 }
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/events.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/events.js":[function(require,module,exports){
 var _ = require('../util')
 
 module.exports = { 
@@ -13539,7 +13539,7 @@ module.exports = {
   // so no need for unbind here.
 
 }
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/html.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/html.js":[function(require,module,exports){
 var _ = require('../util')
 var templateParser = require('../parsers/template')
 
@@ -13578,7 +13578,7 @@ module.exports = {
   }
 
 }
-},{"../parsers/template":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/template.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/if.js":[function(require,module,exports){
+},{"../parsers/template":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/template.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/if.js":[function(require,module,exports){
 var _ = require('../util')
 var compile = require('../compiler/compile')
 var templateParser = require('../parsers/template')
@@ -13666,7 +13666,7 @@ module.exports = {
   }
 
 }
-},{"../compiler/compile":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/compiler/compile.js","../parsers/template":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/template.js","../transition":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/transition/index.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/index.js":[function(require,module,exports){
+},{"../compiler/compile":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/compiler/compile.js","../parsers/template":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/template.js","../transition":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/transition/index.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/index.js":[function(require,module,exports){
 // manipulation directives
 exports.text       = require('./text')
 exports.html       = require('./html')
@@ -13692,7 +13692,7 @@ exports['if']      = require('./if')
 // child vm communication directives
 exports['with']    = require('./with')
 exports.events     = require('./events')
-},{"./attr":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/attr.js","./class":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/class.js","./cloak":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/cloak.js","./component":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/component.js","./el":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/el.js","./events":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/events.js","./html":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/html.js","./if":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/if.js","./model":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/model/index.js","./on":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/on.js","./partial":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/partial.js","./ref":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/ref.js","./repeat":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/repeat.js","./show":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/show.js","./style":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/style.js","./text":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/text.js","./transition":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/transition.js","./with":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/with.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/model/checkbox.js":[function(require,module,exports){
+},{"./attr":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/attr.js","./class":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/class.js","./cloak":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/cloak.js","./component":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/component.js","./el":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/el.js","./events":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/events.js","./html":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/html.js","./if":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/if.js","./model":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/model/index.js","./on":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/on.js","./partial":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/partial.js","./ref":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/ref.js","./repeat":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/repeat.js","./show":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/show.js","./style":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/style.js","./text":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/text.js","./transition":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/transition.js","./with":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/with.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/model/checkbox.js":[function(require,module,exports){
 var _ = require('../../util')
 
 module.exports = {
@@ -13718,7 +13718,7 @@ module.exports = {
   }
 
 }
-},{"../../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/model/default.js":[function(require,module,exports){
+},{"../../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/model/default.js":[function(require,module,exports){
 var _ = require('../../util')
 
 module.exports = {
@@ -13842,7 +13842,7 @@ module.exports = {
   }
 
 }
-},{"../../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/model/index.js":[function(require,module,exports){
+},{"../../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/model/index.js":[function(require,module,exports){
 var _ = require('../../util')
 
 var handlers = {
@@ -13899,7 +13899,7 @@ module.exports = {
   }
 
 }
-},{"../../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js","./checkbox":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/model/checkbox.js","./default":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/model/default.js","./radio":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/model/radio.js","./select":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/model/select.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/model/radio.js":[function(require,module,exports){
+},{"../../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js","./checkbox":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/model/checkbox.js","./default":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/model/default.js","./radio":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/model/radio.js","./select":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/model/select.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/model/radio.js":[function(require,module,exports){
 var _ = require('../../util')
 
 module.exports = {
@@ -13926,7 +13926,7 @@ module.exports = {
   }
 
 }
-},{"../../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/model/select.js":[function(require,module,exports){
+},{"../../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/model/select.js":[function(require,module,exports){
 var _ = require('../../util')
 var Watcher = require('../../watcher')
 
@@ -14094,7 +14094,7 @@ function indexOf (arr, val) {
   }
   return -1
 }
-},{"../../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js","../../watcher":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/watcher.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/on.js":[function(require,module,exports){
+},{"../../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js","../../watcher":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/watcher.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/on.js":[function(require,module,exports){
 var _ = require('../util')
 
 module.exports = {
@@ -14154,7 +14154,7 @@ module.exports = {
     _.off(this.el, 'load', this.iframeBind)
   }
 }
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/partial.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/partial.js":[function(require,module,exports){
 var _ = require('../util')
 var templateParser = require('../parsers/template')
 var vIf = require('./if')
@@ -14199,7 +14199,7 @@ module.exports = {
   }
 
 }
-},{"../parsers/template":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/template.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js","./if":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/if.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/ref.js":[function(require,module,exports){
+},{"../parsers/template":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/template.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js","./if":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/if.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/ref.js":[function(require,module,exports){
 var _ = require('../util')
 
 module.exports = {
@@ -14225,7 +14225,7 @@ module.exports = {
   }
   
 }
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/repeat.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/repeat.js":[function(require,module,exports){
 var _ = require('../util')
 var isObject = _.isObject
 var textParser = require('../parsers/text')
@@ -14729,7 +14729,7 @@ function range (n) {
   }
   return ret
 }
-},{"../compiler/compile":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/compiler/compile.js","../compiler/transclude":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/compiler/transclude.js","../parsers/expression":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/expression.js","../parsers/template":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/template.js","../parsers/text":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/text.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js","../util/merge-option":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/merge-option.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/show.js":[function(require,module,exports){
+},{"../compiler/compile":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/compiler/compile.js","../compiler/transclude":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/compiler/transclude.js","../parsers/expression":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/expression.js","../parsers/template":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/template.js","../parsers/text":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/text.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js","../util/merge-option":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/merge-option.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/show.js":[function(require,module,exports){
 var transition = require('../transition')
 
 module.exports = function (value) {
@@ -14738,7 +14738,7 @@ module.exports = function (value) {
     el.style.display = value ? '' : 'none'
   }, this.vm)
 }
-},{"../transition":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/transition/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/style.js":[function(require,module,exports){
+},{"../transition":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/transition/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/style.js":[function(require,module,exports){
 var _ = require('../util')
 var prefixes = ['-webkit-', '-moz-', '-ms-']
 var camelPrefixes = ['Webkit', 'Moz', 'ms']
@@ -14839,7 +14839,7 @@ function prefix (prop) {
     }
   }
 }
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/text.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/text.js":[function(require,module,exports){
 var _ = require('../util')
 
 module.exports = {
@@ -14855,7 +14855,7 @@ module.exports = {
   }
   
 }
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/transition.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/transition.js":[function(require,module,exports){
 module.exports = {
 
   priority: 1000,
@@ -14868,7 +14868,7 @@ module.exports = {
   }
 
 }
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/with.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/with.js":[function(require,module,exports){
 var _ = require('../util')
 var Watcher = require('../watcher')
 
@@ -14916,7 +14916,7 @@ module.exports = {
   }
 
 }
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js","../watcher":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/watcher.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/filters/array-filters.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js","../watcher":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/watcher.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/filters/array-filters.js":[function(require,module,exports){
 var _ = require('../util')
 var Path = require('../parsers/path')
 
@@ -15004,7 +15004,7 @@ function contains (val, search) {
     return val.toString().toLowerCase().indexOf(search) > -1
   }
 }
-},{"../parsers/path":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/path.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/filters/index.js":[function(require,module,exports){
+},{"../parsers/path":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/path.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/filters/index.js":[function(require,module,exports){
 var _ = require('../util')
 
 /**
@@ -15140,7 +15140,7 @@ exports.key.keyCodes = keyCodes
  */
 
 _.extend(exports, require('./array-filters'))
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js","./array-filters":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/filters/array-filters.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/instance/compile.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js","./array-filters":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/filters/array-filters.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/instance/compile.js":[function(require,module,exports){
 var _ = require('../util')
 var Directive = require('../directive')
 var compile = require('../compiler/compile')
@@ -15328,7 +15328,7 @@ exports._cleanup = function () {
   // turn off all instance listeners.
   this.$off()
 }
-},{"../compiler/compile":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/compiler/compile.js","../compiler/transclude":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/compiler/transclude.js","../directive":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directive.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/instance/events.js":[function(require,module,exports){
+},{"../compiler/compile":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/compiler/compile.js","../compiler/transclude":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/compiler/transclude.js","../directive":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directive.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/instance/events.js":[function(require,module,exports){
 var _ = require('../util')
 var inDoc = _.inDoc
 
@@ -15451,7 +15451,7 @@ exports._callHook = function (hook) {
   }
   this.$emit('hook:' + hook)
 }
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/instance/init.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/instance/init.js":[function(require,module,exports){
 var mergeOptions = require('../util/merge-option')
 
 /**
@@ -15528,7 +15528,7 @@ exports._init = function (options) {
     this.$mount(options.el)
   }
 }
-},{"../util/merge-option":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/merge-option.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/instance/scope.js":[function(require,module,exports){
+},{"../util/merge-option":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/merge-option.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/instance/scope.js":[function(require,module,exports){
 var _ = require('../util')
 var Observer = require('../observer')
 var Dep = require('../observer/dep')
@@ -15746,7 +15746,7 @@ exports._defineMeta = function (key, value) {
     }
   })
 }
-},{"../observer":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/observer/index.js","../observer/dep":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/observer/dep.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/observer/array.js":[function(require,module,exports){
+},{"../observer":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/observer/index.js","../observer/dep":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/observer/dep.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/observer/array.js":[function(require,module,exports){
 var _ = require('../util')
 var arrayProto = Array.prototype
 var arrayMethods = Object.create(arrayProto)
@@ -15837,7 +15837,7 @@ _.define(
 )
 
 module.exports = arrayMethods
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/observer/dep.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/observer/dep.js":[function(require,module,exports){
 var uid = 0
 
 /**
@@ -15888,7 +15888,7 @@ p.notify = function () {
 }
 
 module.exports = Dep
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/observer/index.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/observer/index.js":[function(require,module,exports){
 var _ = require('../util')
 var config = require('../config')
 var Dep = require('./dep')
@@ -16125,7 +16125,7 @@ p.removeVm = function (vm) {
 
 module.exports = Observer
 
-},{"../config":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/config.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js","./array":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/observer/array.js","./dep":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/observer/dep.js","./object":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/observer/object.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/observer/object.js":[function(require,module,exports){
+},{"../config":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/config.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js","./array":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/observer/array.js","./dep":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/observer/dep.js","./object":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/observer/object.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/observer/object.js":[function(require,module,exports){
 var _ = require('../util')
 var objProto = Object.prototype
 
@@ -16192,7 +16192,7 @@ _.define(
     }
   }
 )
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/directive.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/directive.js":[function(require,module,exports){
 var _ = require('../util')
 var Cache = require('../cache')
 var cache = new Cache(1000)
@@ -16352,7 +16352,7 @@ exports.parse = function (s) {
   cache.put(s, dirs)
   return dirs
 }
-},{"../cache":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/cache.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/expression.js":[function(require,module,exports){
+},{"../cache":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/cache.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/expression.js":[function(require,module,exports){
 var _ = require('../util')
 var Path = require('./path')
 var Cache = require('../cache')
@@ -16579,7 +16579,7 @@ exports.parse = function (exp, needSet) {
 
 // Export the pathRegex for external use
 exports.pathTestRE = pathTestRE
-},{"../cache":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/cache.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js","./path":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/path.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/path.js":[function(require,module,exports){
+},{"../cache":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/cache.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js","./path":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/path.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/path.js":[function(require,module,exports){
 var _ = require('../util')
 var Cache = require('../cache')
 var pathCache = new Cache(1000)
@@ -16880,7 +16880,7 @@ exports.set = function (obj, path, val) {
   }
   return true
 }
-},{"../cache":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/cache.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/template.js":[function(require,module,exports){
+},{"../cache":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/cache.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/template.js":[function(require,module,exports){
 var _ = require('../util')
 var Cache = require('../cache')
 var templateCache = new Cache(1000)
@@ -17131,7 +17131,7 @@ exports.parse = function (template, clone, noSelector) {
     ? exports.clone(frag)
     : frag
 }
-},{"../cache":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/cache.js","../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/text.js":[function(require,module,exports){
+},{"../cache":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/cache.js","../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/text.js":[function(require,module,exports){
 var Cache = require('../cache')
 var config = require('../config')
 var dirParser = require('./directive')
@@ -17310,7 +17310,7 @@ function inlineFilters (exp) {
     }
   }
 }
-},{"../cache":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/cache.js","../config":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/config.js","./directive":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/directive.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/transition/css.js":[function(require,module,exports){
+},{"../cache":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/cache.js","../config":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/config.js","./directive":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/directive.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/transition/css.js":[function(require,module,exports){
 var _ = require('../util')
 var addClass = _.addClass
 var removeClass = _.removeClass
@@ -17500,7 +17500,7 @@ module.exports = function (el, direction, op, data, cb) {
     push(el, direction, op, leaveClass, cb)
   }
 }
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/transition/index.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/transition/index.js":[function(require,module,exports){
 var _ = require('../util')
 var applyCSSTransition = require('./css')
 var applyJSTransition = require('./js')
@@ -17652,7 +17652,7 @@ var apply = exports.apply = function (el, direction, op, vm, cb) {
     if (cb) cb()
   }
 }
-},{"../util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js","./css":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/transition/css.js","./js":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/transition/js.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/transition/js.js":[function(require,module,exports){
+},{"../util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js","./css":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/transition/css.js","./js":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/transition/js.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/transition/js.js":[function(require,module,exports){
 /**
  * Apply JavaScript enter/leave functions.
  *
@@ -17696,7 +17696,7 @@ module.exports = function (el, direction, op, data, def, vm, cb) {
     }
   }
 }
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/debug.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/debug.js":[function(require,module,exports){
 var config = require('../config')
 
 /**
@@ -17753,7 +17753,7 @@ function enableDebug () {
     }
   }
 }
-},{"../config":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/config.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/dom.js":[function(require,module,exports){
+},{"../config":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/config.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/dom.js":[function(require,module,exports){
 var config = require('../config')
 
 /**
@@ -17951,7 +17951,7 @@ exports.extractContent = function (el) {
   }
   return rawContent
 }
-},{"../config":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/config.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/env.js":[function(require,module,exports){
+},{"../config":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/config.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/env.js":[function(require,module,exports){
 /**
  * Can we use __proto__?
  *
@@ -18026,7 +18026,7 @@ if (inBrowser && !exports.isIE9) {
     ? 'webkitAnimationEnd'
     : 'animationend'
 }
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/filter.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/filter.js":[function(require,module,exports){
 var _ = require('./debug')
 
 /**
@@ -18099,7 +18099,7 @@ exports.applyFilters = function (value, filters, vm, oldVal) {
   }
   return value
 }
-},{"./debug":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/debug.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js":[function(require,module,exports){
+},{"./debug":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/debug.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js":[function(require,module,exports){
 var lang   = require('./lang')
 var extend = lang.extend
 
@@ -18108,7 +18108,7 @@ extend(exports, require('./env'))
 extend(exports, require('./dom'))
 extend(exports, require('./filter'))
 extend(exports, require('./debug'))
-},{"./debug":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/debug.js","./dom":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/dom.js","./env":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/env.js","./filter":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/filter.js","./lang":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/lang.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/lang.js":[function(require,module,exports){
+},{"./debug":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/debug.js","./dom":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/dom.js","./env":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/env.js","./filter":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/filter.js","./lang":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/lang.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/lang.js":[function(require,module,exports){
 /**
  * Check is a string starts with $ or _
  *
@@ -18284,7 +18284,7 @@ exports.define = function (obj, key, val, enumerable) {
     configurable : true
   })
 }
-},{}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/merge-option.js":[function(require,module,exports){
+},{}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/merge-option.js":[function(require,module,exports){
 var _ = require('./index')
 var extend = _.extend
 
@@ -18540,7 +18540,7 @@ module.exports = function mergeOptions (parent, child, vm) {
   }
   return options
 }
-},{"./index":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/vue.js":[function(require,module,exports){
+},{"./index":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/vue.js":[function(require,module,exports){
 var _ = require('./util')
 var extend = _.extend
 
@@ -18625,7 +18625,7 @@ extend(p, require('./api/child'))
 extend(p, require('./api/lifecycle'))
 
 module.exports = _.Vue = Vue
-},{"./api/child":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/api/child.js","./api/data":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/api/data.js","./api/dom":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/api/dom.js","./api/events":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/api/events.js","./api/global":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/api/global.js","./api/lifecycle":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/api/lifecycle.js","./directives":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/directives/index.js","./filters":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/filters/index.js","./instance/compile":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/instance/compile.js","./instance/events":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/instance/events.js","./instance/init":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/instance/init.js","./instance/scope":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/instance/scope.js","./util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/watcher.js":[function(require,module,exports){
+},{"./api/child":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/api/child.js","./api/data":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/api/data.js","./api/dom":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/api/dom.js","./api/events":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/api/events.js","./api/global":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/api/global.js","./api/lifecycle":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/api/lifecycle.js","./directives":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/directives/index.js","./filters":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/filters/index.js","./instance/compile":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/instance/compile.js","./instance/events":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/instance/events.js","./instance/init":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/instance/init.js","./instance/scope":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/instance/scope.js","./util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/watcher.js":[function(require,module,exports){
 var _ = require('./util')
 var config = require('./config')
 var Observer = require('./observer')
@@ -18878,7 +18878,7 @@ function traverse (obj) {
 }
 
 module.exports = Watcher
-},{"./batcher":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/batcher.js","./config":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/config.js","./observer":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/observer/index.js","./parsers/expression":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/parsers/expression.js","./util":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-client/source.js":[function(require,module,exports){
+},{"./batcher":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/batcher.js","./config":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/config.js","./observer":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/observer/index.js","./parsers/expression":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/parsers/expression.js","./util":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/util/index.js"}],"/home/therebelrobot/git/personal/stellar-api/public/source.js":[function(require,module,exports){
 var _ = require('lodash');
 var moment = require('moment');
 var request = require('superagent');
@@ -18978,7 +18978,7 @@ function _authGithub(cb) {
 
   function checkChild() {
     if (authGit.closed) {
-      console.log("Child window closed", url);
+      console.log("Child window closed", window.gitAuth);
       clearInterval(timer);
     }
     else {
@@ -18994,4 +18994,4 @@ function _logout(cb) {
 function _getRepos(cb, search, searchType, filter, sort, tag) {
 
 }
-},{"domready":"/home/therebelrobot/git/personal/stellar-client/node_modules/domready/ready.js","lodash":"/home/therebelrobot/git/personal/stellar-client/node_modules/lodash/dist/lodash.js","moment":"/home/therebelrobot/git/personal/stellar-client/node_modules/moment/moment.js","store":"/home/therebelrobot/git/personal/stellar-client/node_modules/store/store.js","superagent":"/home/therebelrobot/git/personal/stellar-client/node_modules/superagent/lib/client.js","vue":"/home/therebelrobot/git/personal/stellar-client/node_modules/vue/src/vue.js"}]},{},["/home/therebelrobot/git/personal/stellar-client/source.js"]);
+},{"domready":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/domready/ready.js","lodash":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/lodash/dist/lodash.js","moment":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/moment/moment.js","store":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/store/store.js","superagent":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/superagent/lib/client.js","vue":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/vue.js"}]},{},["/home/therebelrobot/git/personal/stellar-api/public/source.js"]);

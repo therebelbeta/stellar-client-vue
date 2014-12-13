@@ -4,17 +4,20 @@ var request = require('superagent');
 var domready = require('domready');
 var store = require('store');
 var Vue = require('vue');
+var vm;
 
 var config = {
-  // api: 'http://stellarapi.n.ode.rocks:3100/api/'
   api: 'http://localhost:3100/api/'
 }
 
 // Begin Logic
 domready(function() {
   //Get Logo
-  var vm = new Vue({
+  vm = new Vue({
     el: '#v-app',
+    methods: {
+      authGit: _authGithub
+    },
     data: {
       loggedIn: false,
       user: {},
@@ -78,12 +81,11 @@ domready(function() {
         "local_notes": "this is really cool"
       }]
     }
-  })
-  _authGithub();
+  });
 });
 // End Logic
 
-function _authGithub(cb) {
+function _authGithub(event) {
   // var authWindow = window.open(config.api + 'github/auth', null,
   //   'menubar=no,status=no,toolbar=no');
 
@@ -93,21 +95,29 @@ function _authGithub(cb) {
     'menubar=no,status=no,toolbar=no');
 
   var timer = setInterval(checkChild, 500);
-  var url = '';
 
   function checkChild() {
     if (authGit.closed) {
-      console.log("Child window closed", window.gitAuth);
+      config.auth = window.gitAuth;
+      window.gitAuth = undefined;
+      vm.loggedIn = true;
       clearInterval(timer);
-    }
-    else {
-      url = authGit.location.href;
+      _syncRepos();
     }
   }
 }
 
 function _logout(cb) {
 
+}
+
+function _syncRepos(event) {
+  request
+    .put(config.api + 'star/sync')
+    .set('Authorization', 'Bearer ' + config.auth)
+    .end(function(error, res) {
+      console.log(res);
+    })
 }
 
 function _getRepos(cb, search, searchType, filter, sort, tag) {

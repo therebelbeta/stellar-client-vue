@@ -16,7 +16,8 @@ domready(function() {
   vm = new Vue({
     el: '#v-app',
     methods: {
-      authGit: _authGithub
+      authGit: _authGithub,
+      syncStars: _syncRepos
     },
     data: {
       loggedIn: false,
@@ -117,9 +118,16 @@ function _syncRepos(event) {
     .set('Authorization', 'Bearer ' + config.auth)
     .end(function(error, res) {
       console.log(res);
-    })
+      _getRepos()
+    });
 }
 
 function _getRepos(cb, search, searchType, filter, sort, tag) {
-
+  request
+    .get(config.api + 'star')
+    .set('Authorization', 'Bearer ' + config.auth)
+    .end(function(error, res) {
+      console.log(res);
+      vm.repos = _.cloneDeep(res.body.repos);
+    });
 }

@@ -18897,7 +18897,8 @@ domready(function() {
   vm = new Vue({
     el: '#v-app',
     methods: {
-      authGit: _authGithub
+      authGit: _authGithub,
+      syncStars: _syncRepos
     },
     data: {
       loggedIn: false,
@@ -18998,10 +18999,17 @@ function _syncRepos(event) {
     .set('Authorization', 'Bearer ' + config.auth)
     .end(function(error, res) {
       console.log(res);
-    })
+      _getRepos()
+    });
 }
 
 function _getRepos(cb, search, searchType, filter, sort, tag) {
-
+  request
+    .get(config.api + 'star')
+    .set('Authorization', 'Bearer ' + config.auth)
+    .end(function(error, res) {
+      console.log(res);
+      vm.repos = _.cloneDeep(res.body.repos);
+    });
 }
 },{"domready":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/domready/ready.js","lodash":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/lodash/dist/lodash.js","moment":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/moment/moment.js","store":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/store/store.js","superagent":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/superagent/lib/client.js","vue":"/home/therebelrobot/git/personal/stellar-api/public/node_modules/vue/src/vue.js"}]},{},["/home/therebelrobot/git/personal/stellar-api/public/source.js"]);
